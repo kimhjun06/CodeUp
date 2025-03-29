@@ -6,9 +6,9 @@
 
 #include <stdio.h>
 int main(int argc, char** argv) {
-  char x;
-  scanf("%c", &x);
-  printf("%c", x);
+  char x; // 문자를 저장할 수 있도록 x라는 변수를 선언
+  scanf("%c", &x); // 키보드로 입력되는 문자로 읽어 변수에 저장
+  printf("%c", x); // 변수 x에 저장되어 있는 값을 문자(%c)로 출력
   return 0;
 }
 
