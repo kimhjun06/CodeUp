@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 int main(int argc, char++ argv) {
-  int a = 0; b = 0;
+  int a, b;
   scanf("%d %d", &a, &b);
   printf("%d %d", a, b);
   return 0;
